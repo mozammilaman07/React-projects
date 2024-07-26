@@ -2,7 +2,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      {" "}
+      <h1>Hello</h1>
+      <h1>Welcome</h1>
+    </div>
+  );
 }
 
 export default App;
